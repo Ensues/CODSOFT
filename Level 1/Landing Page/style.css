@@ -332,7 +332,7 @@ body.light-mode {
 }
 
 /* Logo Styles */
-.logo.light-mode {
+.light-mode .logo {
     color: var(--second-bg-color); 
 }
 
