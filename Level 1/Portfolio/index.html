@@ -1,15 +1,292 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css" />
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+
+    <head>
+        <meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1.0">
+        <title> Portfolio | Eric Quiambao </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css" />
+    </head>
+
+    <body>
+
+        <header class="header">
+            <a href="#home" class="logo">Eric <span>Quiambao</span></a>
+            <i class="bx bx-menu" id="menu-icon"></i>
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#education">Education</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#certificates">Certificates</a>
+                <a href="#contact">Contact Me</a>
+                <button id="theme-toggle" class="color-btn"><i class="ti ti-sun-moon"></i></button>
+            </nav>
+        </header>
+
+        <div class="loader"></div>
+
+        <section class="home" id="home">
+            <div class="home-content">
+                <h1>Hi, It's <span>Eric</span></h1>
+                <h3 class="text-animation">I'm a <span class="auto-type1"></span></h3>
+                <p>
+                    Hi I'm <span>Eric</span> but just call me <span>Sen</span>! <br>
+                    A 3rd Year Student Taking A <span>Bachelors of Science in Computer Science </span> at Tarlac State University (TSU) 
+                </p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/ejanssenq/" target="_blank"><i class='bx bxl-linkedin-square'></i></box-icon></a>
+                    <a href="https://github.com/Ensues" target="_blank"><i class='bx bxl-github' ></i></a>
+                    <a href="https://www.hackerrank.com/profile/Ensues" target="_blank"><i class="ti ti-brand-hackerrank"></i></a>
+                    <a href="https://leetcode.com/u/ejanssenq/" target="_blank"><i class="ti ti-brand-leetcode"></i></a>
+                </div>
+                <div class="btn-group">
+                    <a href="#" class="btn">Hire Me</a>
+                    <a href="#contact" class="btn">Contact</a>
+                </div>
+            </div>
+                <!--
+                <div class="home-img">
+                    <img src="image.jpg" alt="">
+                </div>
+                -->
+                <a href="#home" class="go-to-btn"><i class='bx bx-up-arrow-alt back-to-top'></i></a>
+        </section>
+
+        <section class="education" id="education">
+            <h2 class="heading">Education</h2>
+            <div class="timeline-items">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Aug 2020 - Mar 2022</div>
+                    <div class="timeline-content">
+                        <h3>Senior High School in ABM</h3>
+                        <h4>Maligaya Trinity Baptist Christian Academy Inc.</h4>
+                        <p>
+                            During my time in the Accounting, Business, and Management (ABM) track, I developed a solid foundation in essential business principles and practices.
+                            <br><br>
+                            The curriculum helped me enhance my analytical and critical thinking skills, enabling me to approach various challenges with a strategic mindset.
+                            <br><br>
+                            Additionally, I participated in workshops that broadened my understanding of current trends, preparing me for diverse opportunities in the future.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Aug 2022 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Bachelors of Science In Computer Science (BSCS)</h3>
+                        <h4>Tarlac State University</h4>
+                        <p>
+                            Pursuing a Bachelor's of Science in Computer Science has allowed me to explore various domains such as
+                            web development, database management, and discrete mathematics. 
+                            <br><br>
+                            The program emphasizes critical thinking and innovation, enabling me to tackle complex challenges in the tech industry.
+                            I have gained proficiency in multiple programming languages and tools, which are essential for my future career.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+        <section class="skills" id="skills">
+            <h2 class="heading">Skills</h2>
+            <div class="specifics">
+                <div class="programming-languages">
+                    <h2 class="heading2"> Programming Languages </h2>
+                    <ul>
+                        <li> <h3>HTML </h3><span class="bar"><span class="html"></span> </li>
+                        <li> <h3>CSS </h3><span class="bar"><span class="css"></span> </li>
+                        <li> <h3>JavaScript </h3><span class="bar"><span class="javascript"></span> </li>
+                        <li> <h3>Python </h3><span class="bar"><span class="python"></span> </li>
+                        <li> <h3>Java </h3><span class="bar"><span class="java"></span> </li>
+                        <li> <h3>VB.NET </h3><span class="bar"><span class="vb"></span> </li>
+                    </ul>
+                </div>
+                <div class="software-tools">
+                    <h2 class="heading2"> Software Tools </h2>
+                    <ul>
+                        <li> <h3>GitHub</h3> <span class="bar"><span class="github"></span> </li>
+                        <li> <h3>VS Code</h3> <span class="bar"><span class="vs"></span> </li>
+                        <li> <h3>Visual Studio</h3> <span class="bar"><span class="visual"></span> </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects" id="projects">
+            <h2 class="heading">Projects</h2>
+            <div class = "project">
+                <div class="project-item">
+                    <div class="project-image">
+                        <img src="../images/image.jpg" alt="image">
+                    </div>
+                    <div class="project-text">
+                        <h3> Resume Website </h3>
+                        <p> 
+                            Built a personal resume website to display my professional experience, skills, and coding projects, you are currently on it.
+                            Utilized HTML, CSS, and JavaScript to create a responsive, minimalistic, and visually engaging interface with a portfolio section. 
+                            To provide a dynamic platform where potential employers or collaborators can easily explore my work and contact me.
+                        </p>
+                        <h4>Technologies Used: <i class='bx bxl-html5'></i> <i class='bx bxl-css3' ></i> <i class='bx bxl-javascript' ></i> </h4> 
+                        <div class="project-link btn-group">
+                            <a href="https://github.com/Ensues/Ensues.github.io" target = "_blank" class="btn">View Code</a>
+                            <a href="https://ensues.github.io/" target = "_blank" class="btn">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-image">
+                        <img src="../images/image.jpg" alt="image">
+                    </div>
+                    <div class="project-text">
+                        <h3> Automated File Management Script</h3>
+                        <p> 
+                            This program uses Python's <c>os</c> and <c>shutil</c> libraries to organize files into folders based on their type, supporting images, videos, audio, documents, and an "Others" category. 
+                            It scans the directory, checks file extensions, and moves them to the appropriate folder, creating folders if needed. 
+                            This saves time by automating file organization and keeps directories tidy and easy to navigate.
+                        </p>
+                        <h4>Technologies Used: <i class='bx bxl-python' ></i></h4> 
+                        <div class="project-link btn-group">
+                            <a href="https://github.com/Ensues/Auto-File-Management" target = "_blank" class="btn">View Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-image">
+                        <img src="../images/image.jpg" alt="image">
+                    </div>
+                    <div class="project-text">
+                        <h3> QR Code Generator Application </h3>
+                        <p> 
+                            This code creates a simple QR Code Generator using Python, where users can input text to generate a QR code via a GUI.  
+                            The libraries it has utilized are as follows: <c>qrcode</c> to generate the QR codes, <c>PIL</c> for image resizing, and <c>Tkinter</c> for the interface. 
+                            The application allows users to create, display, and save QR codes, providing a user-friendly way to quickly encode data into QR codes for easy sharing.
+                        </p>
+                        <h4>Technologies Used: <i class='bx bxl-python' ></i></h4> 
+                        <div class="project-link btn-group">
+                            <a href="https://github.com/Ensues/QR-Code-Generator" target = "_blank" class="btn">View Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-image">
+                        <img src="../images/image.jpg" alt="image">
+                    </div>
+                    <div class="project-text">
+                        <h3> Calculator Website </h3>
+                        <p> 
+                            A simple calculator web app for performing basic arithmetic operations.
+                            Built using HTML for structure, CSS for styling, and JavaScript for functionality. 
+                            To demonstrate how basic web technologies can create an interactive calculator.
+                        </p>
+                        <h4>Technologies Used: <i class='bx bxl-html5'></i> <i class='bx bxl-css3' ></i> <i class='bx bxl-javascript' ></i> </h4> 
+                        <div class="project-link btn-group">
+                            <a href="https://github.com/Ensues/Calculator" target = "_blank" class="btn">View Code</a>
+                            <a href="https://ensues.github.io/Calculator/" target = "_blank" class="btn">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="certificates" id="certificates">
+            <h2 class="heading">Certificates</h2>
+
+            <div class="certificate-item left">
+                <div class="certificate-text">
+                    <h3>Git It Right: Navigating Version Control with Git and Github</h3>
+                    <h4> September 20, 2024</h4>
+                    <p>
+                        This seminar certificate was given for successfully completing a school-led workshop on version control with Git and GitHub. 
+                        The session defined version control and why it is necessary for monitoring changes, collaborating on code, and ensuring project integrity. 
+                        <br><br>
+                        We learned how to utilize essential Git commands for repository management and practiced utilizing GitHub for code hosting, pull requests, and team collaboration, 
+                        all of which helped me grasp efficient, real-world development processes.
+                    </p>
+                </div>
+                <div class="certificate-image">
+                    <a href="../images/certificates/Github.png" target="_blank"><img src="../images/certificates/Github.png" href="" alt="Certificate 1"></a>
+                </div>
+            </div>
+
+            <div class="certificate-item left">
+                <div class="certificate-text">
+                    <h3>Python For DataScience</h3>
+                    <h4> June 18, 2023</h4>
+                    <p> 
+                        This course provided practical lessons and hands-on examples focused on data manipulation and visualization using Python. 
+                        It covered key libraries such as NumPy for numerical operations, Pandas for data analysis and manipulation, and Matplotlib for data visualization. '
+                        <br><br>
+                        The course emphasized how to use these tools effectively to extract insights and communicate data-driven results, showcasing Python's versatility in the field of data science.
+                    </p>
+                </div>
+                <div class="certificate-image">
+                    <a href="../images/certificates/Python_Data_Science.png" target="_blank"><img src="../images/certificates/Python_Data_Science.png" alt="Certificate 2"></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <h2 class="heading">Contact <span>Me</span></h2>
+
+            <form action="">
+                <div class="input-group">
+                    <div class="input-box">
+                        <input type="text" placeholder="Full Name">
+                        <input type="email" placeholder="Email">
+                    </div>
+                    <div class="input-box">
+                        <input type="text" placeholder="Phone Number">
+                        <input type="text" placeholder="Subject">
+                    </div>
+                </div>
+                <div class="input-group-2">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send Message" class="btn">
+                </div>
+            </form>
+        </section>
+
+        <footer class="footer">
+            <div class="social">
+                <a href="https://www.linkedin.com/in/ejanssenq/" target="_blank"><i class='bx bxl-linkedin-square'></i></box-icon></a>
+                <a href="https://github.com/Ensues" target="_blank"><i class='bx bxl-github' ></i></a>
+                <a href="https://www.hackerrank.com/profile/Ensues" target="_blank"><i class="ti ti-brand-hackerrank"></i></a>
+                <a href="https://leetcode.com/u/ejanssenq/" target="_blank"><i class="ti ti-brand-leetcode"></i></a>
+            </div>
+            <ul class="list">
+                <li> <a href="#home" class="active">Home</a> </li>
+                <li> <a href="#education">Education</a> </li>
+                <li> <a href="#skills">Skills</a></li>
+                <li> <a href="#projects">Projects</a> </li>
+                <li> <a href="#certificates">Certificates</a> </li>
+                <li> <a href="#contact">Contact Me</a> </li>
+            </ul>
+            <p class="copyright">
+                @ Eric Quiambao | All Rights Reserved
+            </p>
+        </footer>
+
+        <script src="script.js"></script>
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <script>
+            var typed = new Typed(".auto-type1",{
+                strings: ["Developer", "Designer", "Dreamer"],
+                typespeed: 150,
+                backspeed: 150,
+                loop: true
+            })
+            var typed = new Typed(".auto-type2",{
+                strings: ["Data Scientist", "Web Developer", "Quant Analyst"],
+                typespeed: 150,
+                backspeed: 150,
+                loop: true
+            })
+        </script>
+
+    </body>
 </html>

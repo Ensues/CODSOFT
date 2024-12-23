@@ -1,13 +1,3 @@
-window.addEventListener("load", () => {
-    const loader = document.querySelector(".loader");
-
-    loader.classList.add("loader--hidden");
-
-    loader.addEventListener("transitionend", () => {
-        document.body.removeChild(document.querySelector(".loader"));
-    });
-});
-
 // menu icon
 
 let menuIcon = document.querySelector('#menu-icon');
@@ -59,4 +49,14 @@ document.getElementById('theme-toggle').addEventListener('click', function() {
     document.querySelector('.certificates').classList.toggle('light-mode');
     document.querySelector('.contact').classList.toggle('light-mode');
     // document.querySelector('.').classList.toggle('light-mode'); <-- Add this line
+});
+
+window.addEventListener("load", () => {
+    const loader = document.querySelector(".loader");
+
+    loader.classList.add("loader--hidden");
+
+    loader.addEventListener("transitionend", () => {
+        document.body.removeChild(document.querySelector(".loader"));
+    });
 });
