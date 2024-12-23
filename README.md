@@ -50,7 +50,6 @@ Currently undecided on Level 3 projects. Contributions or suggestions are welcom
 (If Level 3 remains incomplete, it will serve as an open-ended section for future improvements.)
 
 -->
----
 
 ## Technologies Used
 - **HTML**: For structuring content.
@@ -63,6 +62,8 @@ Currently undecided on Level 3 projects. Contributions or suggestions are welcom
 
 This repository is licensed under the MIT License. You are free to use, modify, and distribute the code for both personal and commercial purposes, as long as proper credit is given.
 
+---
+
 ### Acknowledgments
 
-- CODSOFT for providing me with this amazing internship opportunity.
+CODSOFT for providing me with this amazing internship opportunity.
