@@ -9,7 +9,7 @@ Welcome to the repository for my internship projects at **CODSOFT**! This reposi
   - [Level 2](#level-2)
   - [Level 3](#level-3)
 - [Technologies Used](#technologies-used)
-- [Setup and Usage](#setup-and-usage)
+- [License](#License)
 - [Acknowledgments](#acknowledgments)
 
 ---
@@ -58,12 +58,12 @@ Currently undecided on Level 3 projects. Contributions or suggestions are welcom
 
 ---
 
-### License
+## License
 
 This repository is licensed under the MIT License. You are free to use, modify, and distribute the code for both personal and commercial purposes, as long as proper credit is given.
 
 ---
 
-### Acknowledgments
+## Acknowledgments
 
 CODSOFT for providing me with this amazing internship opportunity.
