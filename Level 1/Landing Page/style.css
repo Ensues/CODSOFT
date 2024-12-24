@@ -56,7 +56,6 @@ span{
     display: inline-block;
     padding: 1rem 2.8rem;
     background: var(--main-color);
-    border-radius: 4rem;
     font-size: 1.6rem;
     color: var(--bg-color);
     border: 2px solid transparent;
@@ -271,6 +270,39 @@ section{
 .about{
     padding-top: 30px;
     background: var(--second-bg-color);
+}
+
+.container {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    padding: 25px;
+    column-gap: 5px;
+    width: 100%;
+}
+
+img {
+    float: center;
+    flex: 1;
+    margin: 0 auto;
+    max-width: 45rem;
+    max-height: 45rem;
+}
+
+.text {
+    text-align: justify;
+    float: center;
+    flex: 1;
+    font-size: 2rem;
+    padding: 20px;
+}
+
+.text a{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    width: 250px;
 }
 
 /* Services */
@@ -536,5 +568,5 @@ body.light-mode {
 /* Transition Effects */
 .header, .navbar, .footer, .section, .about, .services, .contact, .go-to-btn {
     transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
-    animation: fade-in 7s ease-in;
+    animation: fade-in 8s ease-in;
 }
