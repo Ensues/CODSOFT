@@ -1,21 +1,21 @@
-:root{
+:root {
     --calc-screen: #9dc183;
     --calc-border: #2a522c;
     --bg-color: #000000;
     --calc-body: #212121;
     --tester: #ffff00;
     --btn-operator: #ebd9c8;
-    --btn-operator-border:#ddd;
-    --btn-operator-hover:#facba3;
+    --btn-operator-border: #ddd;
+    --btn-operator-hover: #facba3;
     --btn-operator-pressing: #b69f97;
     --btn-number: #bfbfbf;
-    --btn-number-border:#a3a0a0;
-    --btn-number-hover:#b4b1b1;
+    --btn-number-border: #a3a0a0;
+    --btn-number-hover: #b4b1b1;
     --btn-number-pressing: #807d7d;
     --btn-equal: #fea02f;
     --btn-equal-text: #fff;
-    --btn-equal-border:#c97e23;
-    --btn-equal-hover:#de6600;
+    --btn-equal-border: #c97e23;
+    --btn-equal-hover: #de6600;
     --btn-equal-pressing: #c2620f;
 }
 
@@ -32,16 +32,16 @@ body {
 .calculator {
     background: var(--calc-body);
     border-radius: 10px;
-    box-shadow: 0 0 15px rgba(0,0,0,0.2);
-    padding: 20px;
-    width: 400px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    padding: 15px; /* Reduced */
+    width: 350px; /* Reduced */
     box-sizing: border-box;
 }
 
 #display {
     width: 100%;
-    padding: 20px;
-    font-size: 55px;
+    padding: 15px; /* Reduced */
+    font-size: 45px; /* Reduced */
     border: 1px solid var(--calc-border);
     border-radius: 5px;
     text-align: right;
@@ -57,16 +57,16 @@ body {
 }
 
 button {
-    padding: 35px;
-    font-size: 18px;
+    padding: 30px; /* Reduced */
+    font-size: 16px; /* Reduced */
     border: 1px solid var(--btn-operator-border);
     border-radius: 5px;
     background-color: var(--btn-operator);
     cursor: pointer;
     transition: background-color 0.2s ease;
     box-sizing: border-box;
-    width: 100%; 
-    height: 100%; 
+    width: 100%;
+    height: 90%; /* Adjusted */
 }
 
 button:hover {
@@ -100,7 +100,8 @@ button:hover {
     background-color: var(--btn-equal);
     border: 1px solid var(--btn-equal-border);
     color: var(--btn-equal-text);
-    padding: 0; 
+    padding: 32px; 
+    height: 97%;
 }
 
 .btn-equal:hover {
