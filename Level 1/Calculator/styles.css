@@ -34,7 +34,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
     padding: 15px; /* Reduced */
-    width: 350px; /* Reduced */
+    width: 360px; /* Reduced */
     box-sizing: border-box;
 }
 
@@ -90,9 +90,6 @@ button:hover {
     background-color: var(--btn-number-pressing);
 }
 
-.btn-zero {
-    grid-column: span 2;
-}
 
 .btn-equal {
     grid-column: 4;
