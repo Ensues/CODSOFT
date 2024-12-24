@@ -3,7 +3,14 @@ function clearDisplay() {
 }
 
 function appendToDisplay(value) {
-    document.getElementById('display').value += value;
+    const display = document.getElementById('display');
+    if (value === '.') {
+        // Prevent adding another period if one already exists in the display
+        if (display.value.includes('.')) {
+            return; // Exit the function if a period is already present
+        }
+    }
+    display.value += value; // Append the value to the display
 }
 
 function backspace() {
