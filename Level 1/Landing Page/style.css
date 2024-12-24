@@ -284,15 +284,13 @@ section{
 }
 
 img {
-    float: center;
     flex: 1;
     margin: 0 auto;
-    max-width: 45rem;
-    max-height: 45rem;
+    max-width: 75rem;
+    max-height: 75rem;
 }
 
 .text {
-    text-align: justify;
     float: center;
     flex: 1;
     font-size: 2rem;
@@ -320,7 +318,7 @@ img {
 }
 .service-box {
     background-color: var(--main-color);
-    height: 400px;
+    height: 375px;
     margin-top: 10px;
     border: 5px solid transparent;
     cursor: pointer;
@@ -335,7 +333,6 @@ img {
 .service-box .service-info {
     display: flex;
     flex-direction: column;
-    text-align: justify;
     justify-content: left;
     align-items: baseline;
     padding: 5rem;
@@ -607,5 +604,5 @@ body.light-mode {
 /* Transition Effects */
 .header, .navbar, .footer, .section, .about, .services, .contact, .go-to-btn {
     transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
-    animation: fade-in 7s ease-in;
+    animation: fade-in 9s ease-in;
 }
