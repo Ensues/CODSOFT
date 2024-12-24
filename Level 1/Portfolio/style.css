@@ -90,7 +90,7 @@ c{
     align-items: center;
     justify-content: center;
     background: var(--bg-color);
-    transition: opacity 1s, visibility 1s;
+    transition: opacity 0.75s, visibility 0.75s;
 }
 
 .loader--hidden{
