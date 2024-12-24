@@ -1,3 +1,24 @@
+:root{
+    --calc-screen: #9dc183;
+    --calc-border: #2a522c;
+    --bg-color: #000000;
+    --calc-body: #212121;
+    --tester: #ffff00;
+    --btn-operator: #ebd9c8;
+    --btn-operator-border:#ddd;
+    --btn-operator-hover:#facba3;
+    --btn-operator-pressing: #b69f97;
+    --btn-number: #bfbfbf;
+    --btn-number-border:#a3a0a0;
+    --btn-number-hover:#b4b1b1;
+    --btn-number-pressing: #807d7d;
+    --btn-equal: #fea02f;
+    --btn-equal-text: #fff;
+    --btn-equal-border:#c97e23;
+    --btn-equal-hover:#de6600;
+    --btn-equal-pressing: #c2620f;
+}
+
 body {
     font-family: Arial, sans-serif;
     display: flex;
@@ -5,11 +26,11 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #000;
+    background-color: var(--bg-color);
 }
 
 .calculator {
-    background: #212121;
+    background: var(--calc-body);
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0,0,0,0.2);
     padding: 20px;
@@ -21,12 +42,12 @@ body {
     width: 100%;
     padding: 20px;
     font-size: 55px;
-    border: 1px solid #3f7942;
+    border: 1px solid var(--calc-border);
     border-radius: 5px;
     text-align: right;
     box-sizing: border-box;
     margin-bottom: 10px;
-    background-color: #9dc183;
+    background-color: var(--calc-screen);
 }
 
 .buttons {
@@ -38,9 +59,9 @@ body {
 button {
     padding: 35px;
     font-size: 18px;
-    border: 1px solid #ddd;
+    border: 1px solid var(--btn-operator-border);
     border-radius: 5px;
-    background-color: #ebd9c8;
+    background-color: var(--btn-operator);
     cursor: pointer;
     transition: background-color 0.2s ease;
     box-sizing: border-box;
@@ -49,19 +70,24 @@ button {
 }
 
 button:hover {
-    background-color: #facba3;
+    background-color: var(--btn-operator-hover);
 }
 
-button:active {
-    background-color: #ccc;
+.btn:active {
+    background-color: var(--btn-operator-pressing);
 }
 
 .btn-number {
-    background-color: #bfbfbf;
+    background-color: var(--btn-number);
+    border: 1px solid var(--btn-number-border);
 }
 
 .btn-number:hover {
-    background-color: #909090;
+    background-color: var(--btn-number-hover);
+}
+
+.btn-number:active {
+    background-color: var(--btn-number-pressing);
 }
 
 .btn-zero {
@@ -71,11 +97,16 @@ button:active {
 .btn-equal {
     grid-column: 4;
     grid-row: span 3;
-    background-color: #fea02f;
-    color: #fff;
+    background-color: var(--btn-equal);
+    border: 1px solid var(--btn-equal-border);
+    color: var(--btn-equal-text);
     padding: 0; 
 }
 
 .btn-equal:hover {
-    background-color: #de6600;
+    background-color: var(--btn-equal-hover);
+}
+
+.btn-equal:active {
+    background-color: var(--btn-equal-pressing);
 }
