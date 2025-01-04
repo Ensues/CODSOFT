@@ -217,9 +217,9 @@ section{
     color: var(--main-color);
     letter-spacing: 5px;
     font-size: 2.5rem;
-    font-weight: 750;
+    font-weight: 625;
     padding-top: 10px;
-    animation: fade-in 3s ease-in;
+    animation: fade-in 2s ease-in;
 }
 .h-text h1{
     font-size: 3.5rem;
@@ -411,7 +411,7 @@ img {
     transition: 0.3s ease-in-out;
 }
 .footer .social a:hover{
-    transform: scale(1.2)translateY(-10px);
+    transform: scale(1.1);
     background: var(--main-gradient-color);
     border: var(--main-gradient-color);
 }
@@ -428,9 +428,12 @@ img {
     border-bottom: 3px solid transparent;
     transition: 0.3s ease-in-out;
 }
+.footer ul li a:active,
 .footer ul li a:hover{
+    background: var(--main-gradient-color);
     border-bottom: 3px solid var(--main-color);
-    color: var(--main-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .footer ul li{
     display: inline-block;
@@ -480,10 +483,10 @@ body.light-mode {
 .btn.light-mode {
     background-color: var(--bg-color); 
     color: var(--light-bg-color); 
-    border: 2px solid var(--light-text-color);
+    border: 2px solid var(--light-bg-color);
 }
 .btn.light-mode:hover {
-    background-color: var(--light-bg-color);
+    background-color: var(--bg-color);
     color: var(--bg-color);
 }
 .light-mode .btn-group a:nth-of-type(2){
@@ -492,9 +495,9 @@ body.light-mode {
     border: 2px solid var(--bg-color);
 }
 .light-mode .btn-group a:nth-of-type(2):hover{
-    background-color: var(--bg-color); 
-    color: var(--light-bg-color); 
-    border: 2px solid var(--light-text-color);
+    background-color: var(--light-bg-color); 
+    color: var(--bg-color); 
+    border: 2px solid var(--bg-color);
 }
 .light-mode .color-btn{
     color: var(--light-text-color);
@@ -502,29 +505,6 @@ body.light-mode {
 .light-mode .color-btn:hover{
     background-color: var(--bg-color);
     color: var(--light-bg-color);
-}
-.light-mode .projects .project-link .btn{
-    background-color: var(--bg-color); 
-    color: var(--light-bg-color); 
-    border: 2px solid var(--light-text-color);
-}
-.light-mode .projects .project-link .btn:hover{
-    background-color: var(--light-bg-color);
-    color: var(--bg-color);
-}
-.light-mode .projects .project-link a:nth-of-type(2){
-    background-color: var(--light-bg-color);
-    color: var(--bg-color);
-    border: 2px solid var(--bg-color);
-}
-.light-mode .contact .btn{
-    background-color: var(--bg-color); 
-    color: var(--light-bg-color); 
-    border: 2px solid var(--light-text-color);
-}
-.light-mode .contact .btn:hover {
-    background-color: var(--light-bg-color);
-    color: var(--bg-color);
 }
 .light-mode .go-to-btn{
     background: var(--bg-color);
@@ -536,11 +516,11 @@ body.light-mode {
 } 
 .light-mode .h-text a{
     background-color: var(--light-bg-color);
-    color: var(--bg-color);
+    color: var(--light-bg-color);
 }
 .light-mode .h-text a:hover{
-    background-color: var(--bg-color);
-    color: var(--light-bg-color);
+    color: var(--bg-color);
+    border-color: var(--bg-color);
 }
 
 /* Social Icons */
@@ -583,19 +563,13 @@ body.light-mode {
 }
 .light-mode .services {
     background-color: var(--light-bg-color);
-    color: var(--bg-color); 
     border: 2px solid var(--light-text-color);
 }
-
-/* Contact Me */
-.light-mode .contact {
-    background-color: var(--light-second-bg-color);
+.light-mode .service-info {
+    color: var(--light-bg-color);
 }
-.light-mode .contact form .input-box input,
-.light-mode .contact form textarea {
-    background-color: var(--light-bg-color);
-    color: var(--bg-color); 
-    border: 2px solid var(--light-text-color);
+.light-mode .service-info:hover{
+    color: var(--bg-color);
 }
 
 /* Footer Styles */
@@ -609,7 +583,7 @@ body.light-mode {
     transition: 0.3s ease-in-out;
 }
 .footer.light-mode ul li a:hover {
-    border-bottom: 3px solid var(--light-main-color); 
+    border-bottom: 3px solid var(--main-color); 
     color: var(--light-main-color); 
 }
 .footer.light-mode .copyright{
