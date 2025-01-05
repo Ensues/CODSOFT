@@ -301,8 +301,8 @@ section{
 img {
     flex: 1;
     margin: 0 auto;
-    max-width: 75rem;
-    max-height: 75rem;
+    max-width: 100%;
+    height: auto;
 }
 
 .text {
@@ -750,4 +750,165 @@ body.light-mode {
 .header, .navbar, .footer, .section, .about, .services, .contact, .go-to-btn {
     transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
     animation: fade-in 9s ease-in;
+}
+
+/* Responsiveness */
+
+/* Mobile Devices */
+@media (max-width: 480px) {
+    html {
+        font-size: 50%; /* Reduce font size for smaller screens */
+    }
+
+    .header {
+        padding: 0rem 5%; /* Adjust header padding */
+    }
+
+    .logo {
+        font-size: 1.8rem;
+    }
+
+    .navbar a {
+        font-size: 1.5rem; /* Reduce navbar font size */
+        margin-left: 0.25rem;
+    }
+
+    .heading {
+        font-size: 4rem; /* Reduce heading size */
+    }
+
+    .btn {
+        padding: 0.8rem 2rem; /* Adjust button padding */
+        font-size: 1.4rem;
+    }
+
+    .h-text {
+        margin-top: -100px; /* Adjust home text positioning */
+    }
+
+    .h-text h1 {
+        font-size: 2.5rem; /* Reduce home text size */
+    }
+
+    .container {
+        flex-direction: column; /* Stack elements vertically */
+    }
+
+    .container .left-side::before{
+        background: transparent;
+    }
+
+    .text {
+        font-size: 1.5rem; /* Reduce text size */
+    }
+
+    .services-container {
+        grid-template-columns: 1fr; /* Single column for services */
+    }
+
+    .service-box {
+        height: auto; /* Auto height for service boxes */
+    }
+
+    .footer ul li {
+        display: block; /* Stack footer links vertically */
+        padding: 10px 0;
+    }
+}
+
+/* Tablet Devices */
+@media (min-width: 481px) and (max-width: 768px) {
+    html {
+        font-size: 55%; /* Slightly larger font size */
+    }
+
+    .header {
+        padding: 0rem 6%; /* Adjust header padding */
+    }
+
+    .logo {
+        font-size: 2.5rem;
+    }
+
+    .navbar a {
+        font-size: 1.8rem; /* Slightly larger navbar font size */
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .heading {
+        font-size: 5rem; /* Adjust heading size */
+    }
+
+    .btn {
+        padding: 1rem 2.5rem; /* Adjust button padding */
+        font-size: 1.5rem;
+    }
+
+    .h-text h1 {
+        font-size: 3rem; /* Adjust home text size */
+    }
+
+    .container {
+        flex-direction: column; /* Stack elements vertically */
+    }
+
+    .container .left-side::before{
+        background: transparent;
+    }
+
+    .services-container {
+        grid-template-columns: repeat(2, 1fr); /* Two columns for services */
+    }
+
+    .footer ul li {
+        display: inline-block; /* Keep footer links inline */
+    }
+}
+
+/* Laptop Devices */
+@media (min-width: 769px) and (max-width: 1024px) {
+    html {
+        font-size: 58%; /* Adjust font size */
+    }
+
+    .header {
+        padding: 0rem 7%; /* Adjust header padding */
+    }
+
+    .navbar a {
+        font-size: 2rem; /* Adjust navbar font size */
+    }
+
+    .heading {
+        font-size: 5.5rem; /* Adjust heading size */
+    }
+
+    .btn {
+        padding: 1.2rem 2.8rem; /* Adjust button padding */
+        font-size: 1.6rem;
+    }
+
+    .h-text h1 {
+        font-size: 3.5rem; /* Adjust home text size */
+    }
+
+    .services-container {
+        grid-template-columns: repeat(3, 1fr); /* Three columns for services */
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Stack elements vertically */
+    }
+
+    .services-container {
+        grid-template-columns: 1fr; /* Single column layout */
+    }
+}
+
+/* Desktop Devices */
+@media (min-width: 1025px) {
+    /* No changes needed for desktop */
 }
