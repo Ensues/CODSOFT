@@ -773,6 +773,10 @@ body.light-mode {
         margin-left: 0.25rem;
     }
 
+    .color-btn{
+        font-size: 1.5rem;
+    }
+
     .heading {
         font-size: 4rem; /* Reduce heading size */
     }
