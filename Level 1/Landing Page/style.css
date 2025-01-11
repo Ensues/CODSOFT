@@ -289,7 +289,7 @@ section{
     background: var(--second-bg-color);
 }
 
-.container {
+.about .container {
     display: flex;
     align-items: center; 
     justify-content: center;
@@ -298,21 +298,21 @@ section{
     width: 100%;
 }
 
-img {
+.about img {
     flex: 1;
     margin: 0 auto;
     max-width: 100%;
     height: auto;
 }
 
-.text {
+.about .text {
     float: center;
     flex: 1;
     font-size: 2rem;
     padding: 20px;
 }
 
-.text a{
+.about .text a{
     align-items: center;
     display: flex;
     justify-content: center;
@@ -779,7 +779,7 @@ body.light-mode {
 
     .heading {
         font-size: 4rem; /* Reduce heading size */
-    }22
+    }
 
     .btn {
         padding: 0.8rem 2rem; /* Adjust button padding */
