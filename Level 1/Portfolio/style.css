@@ -78,6 +78,10 @@ body{
 c{
     color: var(--main-color);
 }
+up{
+    font-size: 3rem;
+    color: var(--main-color);
+}
 /* Header */
 .header{
     position:fixed;
@@ -289,16 +293,12 @@ span{
     width: 100%;
 }
 
-.about up{
-    font-size: 3rem;
-    color: var(--main-color);
-}
-
 .about img {
     flex: 1;
     margin: 0 auto;
     max-width: 100%;
     height: auto;
+    border: 3px solid var(--light-bg-color);
 }
 
 .about .text {
@@ -728,6 +728,10 @@ body.light-mode {
 /* About */
 .light-mode .about{
     background-color: var(--light-second-bg-color);
+}
+
+.light-mode .about img{
+    border: 3px solid var(--bg-color);
 }
 
 /* Skills */
