@@ -6,8 +6,6 @@ Welcome to the repository for my internship projects at **CODSOFT**! This reposi
 - [Overview](#overview)
 - [Levels and Projects](#levels-and-projects)
   - [Level 1](#level-1)
-  - [Level 2](#level-2)
-  - [Level 3](#level-3)
 - [Technologies Used](#technologies-used)
 - [License](#License)
 - [Acknowledgments](#acknowledgments)
@@ -26,30 +24,13 @@ This repository showcases the projects I completed during my internship at **COD
 1. **Landing Page**  
    A visually appealing homepage designed to showcase basic web development skills and a focus on responsive design.
 
-2. **Calculator (Using Grids)**  
-   A functional calculator built with CSS Grid for layout and JavaScript for interactivity.
-
-3. **Portfolio Site**  
+2. **Portfolio Site**  
    A personal portfolio showcasing my projects, skills, and experience.
 
+3. **Calculator (Using Grids)**  
+   A functional calculator built with CSS Grid for layout and JavaScript for interactivity.
+   
 ---
-
-<!--
-
-### Level 2
-1. **Tribute Page**  
-   A single-page application dedicated to a person or topic, featuring structured content and simple styling.
-
-2. **Job Board**  
-   A platform for displaying job postings, with a clean and intuitive layout.
-
----
-
-### Level 3
-Currently undecided on Level 3 projects. Contributions or suggestions are welcome.  
-(If Level 3 remains incomplete, it will serve as an open-ended section for future improvements.)
-
--->
 
 ## Technologies Used
 - **HTML**: For structuring content.
