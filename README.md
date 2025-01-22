@@ -23,12 +23,18 @@ This repository showcases the projects I completed during my internship at **COD
 ### Level 1
 1. **Landing Page**  
    A visually appealing homepage designed to showcase basic web development skills and a focus on responsive design.
-
-2. **Portfolio Site**  
+   GitHub Repo: https://github.com/Ensues/Landing-Page-V1
+   Link: https://ensues.github.io/Landing-Page-V1/
+   
+3. **Portfolio Site**  
    A personal portfolio showcasing my projects, skills, and experience.
+   GitHub Repo: https://github.com/Ensues/Resume-Website-V4
+   Link: https://github.com/Ensues/Resume-Website-V4
 
-3. **Calculator (Using Grids)**  
+5. **Calculator (Using Grids)**  
    A functional calculator built with CSS Grid for layout and JavaScript for interactivity.
+   GitHub Repo: https://github.com/Ensues/Calculator-V2
+   Link: https://github.com/Ensues/Calculator-V2
    
 ---
 
