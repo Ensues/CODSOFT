@@ -23,14 +23,17 @@ This repository showcases the projects I completed during my internship at **COD
 ### Level 1
 1. **Landing Page**  
    A visually appealing homepage designed to showcase basic web development skills and a focus on responsive design.
+
    - Link: https://raw.githack.com/Ensues/CODSOFT/refs/heads/main/Level%201/Landing%20Page/index.html
    
 3. **Portfolio Site**  
    A personal portfolio showcasing my projects, skills, and experience.
-   - Link: https:https://raw.githack.com/Ensues/CODSOFT/refs/heads/main/Level%201/Portfolio/index.html
+
+   - Link: https://raw.githack.com/Ensues/CODSOFT/refs/heads/main/Level%201/Portfolio/index.html
 
 5. **Calculator (Using Grids)**  
    A functional calculator built with CSS Grid for layout and JavaScript for interactivity.
+
    - Link: https://raw.githack.com/Ensues/CODSOFT/refs/heads/main/Level%201/Calculator/index.html
    
 ---
