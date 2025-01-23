@@ -1,42 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basic Calculator</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="calculator">
-        <section class="screen">
-            <div class="equation">
-                <div class="summary" id="display"></div>
-                <div class="total" id="display">0</div>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Basic Calculator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="calculator">
+            <section class="screen">
+                <div class="equation">
+                    <div class="summary" id="display"></div>
+                    <div class="total" id="display">0</div>
+                </div>
+            </section>
+            <div class="buttons">
+                <button class="clear" data-val="clear">C</button>
+                <button class="backspace" data-val="←">←</button>
+                <button class="operator" data-val="÷">÷</button>
+                <button class="number" data-val="7">7</button>
+                <button class="number" data-val="8">8</button>
+                <button class="number" data-val="9">9</button>
+                <button class="operator" data-val="×">×</button>
+                <button class="number" data-val="4">4</button>
+                <button class="number" data-val="5">5</button>
+                <button class="number" data-val="6">6</button>
+                <button class="operator" data-val="-">-</button>
+                <button class="number" data-val="1">1</button>
+                <button class="number" data-val="2">2</button>
+                <button class="number" data-val="3">3</button>
+                <button class="operator" data-val="+">+</button>
+                <button class="number zero" data-val="0">0</button>
+                <button class="decimal" data-val=".">.</button>
+                <button class="equals" data-val="=">=</button>
             </div>
-        </section>
-        <div class="buttons">
-            <button class="clear" data-val="clear">C</button>
-            <button class="backspace" data-val="←">←</button>
-            <button class="operator" data-val="÷">÷</button>
-            <button class="number" data-val="7">7</button>
-            <button class="number" data-val="8">8</button>
-            <button class="number" data-val="9">9</button>
-            <button class="operator" data-val="×">×</button>
-            <button class="number" data-val="4">4</button>
-            <button class="number" data-val="5">5</button>
-            <button class="number" data-val="6">6</button>
-            <button class="operator" data-val="-">-</button>
-            <button class="number" data-val="1">1</button>
-            <button class="number" data-val="2">2</button>
-            <button class="number" data-val="3">3</button>
-            <button class="operator" data-val="+">+</button>
-            <button class="number zero" data-val="0">0</button>
-            <button class="decimal" data-val=".">.</button>
-            <button class="equals" data-val="=">=</button>
         </div>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
-    integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
-</body>
+        <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+    </body>
 </html>

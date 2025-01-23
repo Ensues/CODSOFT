@@ -1,5 +1,3 @@
-
-
 var $keys = $('button');
 var $total = $('.total');
 var $summary = $('.summary');
