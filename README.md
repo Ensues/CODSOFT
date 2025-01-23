@@ -6,8 +6,6 @@ Welcome to the repository for my internship projects at **CODSOFT**! This reposi
 - [Overview](#overview)
 - [Levels and Projects](#levels-and-projects)
   - [Level 1](#level-1)
-  - [Level 2](#level-2)
-  - [Level 3](#level-3)
 - [Technologies Used](#technologies-used)
 - [License](#License)
 - [Acknowledgments](#acknowledgments)
@@ -25,31 +23,20 @@ This repository showcases the projects I completed during my internship at **COD
 ### Level 1
 1. **Landing Page**  
    A visually appealing homepage designed to showcase basic web development skills and a focus on responsive design.
-
-2. **Calculator (Using Grids)**  
-   A functional calculator built with CSS Grid for layout and JavaScript for interactivity.
-
+   - Seperate Git Repo: https://github.com/Ensues/Landing-Page-V1
+   - Link: https://raw.githack.com/Ensues/CODSOFT/refs/heads/main/Level%201/Landing%20Page/index.html
+   
 3. **Portfolio Site**  
    A personal portfolio showcasing my projects, skills, and experience.
+   - Seperate Git Repo: https://github.com/Ensues/Resume-Website-V4
+   - Link: https://raw.githack.com/Ensues/CODSOFT/refs/heads/main/Level%201/Portfolio/index.html
 
+5. **Calculator (Using Grids)**  
+   A functional calculator built with CSS Grid for layout and JavaScript for interactivity.
+   - Seperate Git Repo: https://github.com/Ensues/Calculator-V2
+   - Link: https://raw.githack.com/Ensues/CODSOFT/refs/heads/main/Level%201/Calculator/index.html
+   
 ---
-
-<!--
-
-### Level 2
-1. **Tribute Page**  
-   A single-page application dedicated to a person or topic, featuring structured content and simple styling.
-
-2. **Job Board**  
-   A platform for displaying job postings, with a clean and intuitive layout.
-
----
-
-### Level 3
-Currently undecided on Level 3 projects. Contributions or suggestions are welcome.  
-(If Level 3 remains incomplete, it will serve as an open-ended section for future improvements.)
-
--->
 
 ## Technologies Used
 - **HTML**: For structuring content.
